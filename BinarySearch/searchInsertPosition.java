@@ -1,5 +1,4 @@
-package BInarySearch;
-
+package BinarySearch;
 // LINK_TO_THE_PROBLEM: https://leetcode.com/problems/search-insert-position
 /**
  * Search Insert Position Or CeilingOfANum.
@@ -29,6 +28,8 @@ public class searchInsertPosition {
         return s;
     }
 }
+// EXPLANATION 
+
 // Q1) why the bounds are set the way they are set ?
 // Ans: The bounds has been set in order to traverse the array. ie: s = 0, for
 // index:0 and e = arr.length-1 for the last index of the array.
@@ -65,6 +66,7 @@ Q3) why s <= e ?
  *       e
  * CONDITION VIOLATED;
  */
+
 /*
   Q4) why return s (start) or the lower bound ?
     Ans: We know some stuff that is for granted that is, we know that all elements before s will be smaller than target that is what we saw in the above answer of Q3).
