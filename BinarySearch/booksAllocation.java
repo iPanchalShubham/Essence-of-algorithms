@@ -1,7 +1,7 @@
 package BinarySearch;
 
 // Problem link: https://www.codingninjas.com/codestudio/problems/allocate-books_1090540
-public class AllocateBooks {
+public class booksAllocation {
     public static void main(String[] args) {
         int[] arr = {
                 3, 1, 10, 6, 5
