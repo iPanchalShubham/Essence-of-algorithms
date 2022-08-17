@@ -1,4 +1,4 @@
-package BInarySearch;
+package BinarySearch;
 
 // LINK_TO_THE_PROBLEM: https://leetcode.com/problems/search-insert-position
 /**
